@@ -1,0 +1,6 @@
+{
+  "name": "Insanely creative 27",
+  "description": "AI-powered Content Production Studio. Turn one idea into an entire coordinated multi-channel campaign with posters, reels, shorts, captions, and ad copy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

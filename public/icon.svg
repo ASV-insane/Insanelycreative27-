@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#74cfb6"/>
+      <stop offset="50%" stop-color="#a4db52"/>
+      <stop offset="100%" stop-color="#d5d625"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Squircle Base with exact Logo Mint-to-Lime Gradient -->
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#logoGrad)" filter="url(#cardShadow)"/>
+
+  <!-- Geometric 27 Mark -->
+  <!-- '2' Number Blocks -->
+  <!-- Top bar -->
+  <rect x="135" y="150" width="75" height="26" fill="#090a0f"/>
+  <!-- Right upper vertical bar -->
+  <rect x="225" y="150" width="26" height="85" fill="#090a0f"/>
+  <!-- Middle bar -->
+  <rect x="148" y="208" width="65" height="26" fill="#090a0f"/>
+  <!-- Left lower vertical bar -->
+  <rect x="110" y="208" width="26" height="85" fill="#090a0f"/>
+  <!-- Bottom bar -->
+  <rect x="148" y="267" width="103" height="26" fill="#090a0f"/>
+
+  <!-- '7' Number Blocks -->
+  <!-- Top horizontal bar -->
+  <rect x="285" y="150" width="75" height="26" fill="#090a0f"/>
+  <!-- Diagonal slash -->
+  <polygon points="370,150 410,170 300,293 285,273" fill="#090a0f"/>
+
+  <!-- INSANELY Text (Futuristic Stencil/Geometric) -->
+  <g fill="#090a0f" font-family="'Outfit', system-ui, -apple-system, sans-serif" font-weight="900" font-size="28" letter-spacing="4">
+    <text x="256" y="335" text-anchor="middle">INSANELY</text>
+    <text x="256" y="375" text-anchor="middle">CREATIVE</text>
+  </g>
+</svg>
